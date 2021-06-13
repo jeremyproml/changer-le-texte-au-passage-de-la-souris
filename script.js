@@ -1,5 +1,5 @@
 window.onload = function maFonction() {
-    document.getElementById("elementAChanger").innerHTML = "Tu n'as positionné ta souris sur ancun Item.";
+    document.getElementById("elementAChanger").innerHTML = "La souris n'est sur aucun Item.";
 
     changerItemUn.addEventListener("mouseover", function (event) {
         document.getElementById("elementAChanger").innerHTML =
