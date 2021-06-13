@@ -5,16 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Changer le texte au passage de la souris</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="padding: 25px;">
-    <ul>
-        <li id="changerItemUn">Item 1</li>
-        <li id="changerItemDeux">Item 2</li>
-        <li id="changerItemTrois">Item 3</li>
-    </ul>
-    <div id="elementAChanger">
+<body>
+    <div class="moitié">
+        <div id="changerItemTrois" class="étiquette fondBleu">
+            <p>
+                Item 1
+            </p>
+        </div>
+        <div id="changerItemDeux" class="étiquette fondJaune">
+            <p>
+                Item 2
+            </p>
+        </div>
+        <div id="changerItemUn" class="étiquette fondRose">
+            <p>
+                Item 3
+            </p>
+        </div>
+    </div>
+    <div class="àDroite étiquette fondVert moitié"
+         style="position: relative; top: -7px;">
+        <br><br><br><br>
+        <p id="elementAChanger"></p>
+        <br><br><br><br>
     </div>
 
     <script src="script.js"></script>
