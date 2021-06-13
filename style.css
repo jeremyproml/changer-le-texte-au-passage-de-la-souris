@@ -1,0 +1,41 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.àDroite {
+    text-align: right;
+}
+
+.étiquette {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 0.01em 16px;
+}
+
+.fondBleu {
+    background-color: #2196F3 !important;
+    color: #fff !important;
+}
+
+.fondJaune {
+    background-color: #ffeb3b !important;
+    color: #000 !important;
+}
+
+.fondRose {
+    background-color: #e91e63 !important;
+    color: #fff !important;
+}
+
+.fondVert {
+    background-color: #4CAF50 !important;
+    color: #fff !important;
+}
+
+.moitié {
+    float: left;
+    width: 49.99999%;
+}
+
